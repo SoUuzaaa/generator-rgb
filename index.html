@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator RGB</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>
+                Generator RGB
+            </h1>
+        </div>
+        <div class="date-info">
+            <i class="fas fa-eye-dropper"></i>
+            <span id="date">04/02/2021 - 12:00</span>
+        </div>
+        <div class="generator-container">
+            <div class="inputs">
+                <div class="red">
+                    <input type="range" min="0" max="255" value="127" id="red">
+                </div>
+                <div class="green">
+                    <input type="range" min="0" max="255" value="127" id="green">
+                </div>
+                <div class="blue">
+                    <input type="range" min="0" max="255" value="127" id="blue">
+                </div>
+            </div>
+            <div class="circle"></div>
+            <span id="rgb"></span>
+        </div>
+        <footer>Developed by Felipe Souza</footer>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/bfcd5f93fa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

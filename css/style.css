@@ -1,0 +1,89 @@
+/* Initial Configs */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    ;
+}
+:root {
+    --branco: rgb(255, 255, 255);
+    --cinza: rgb(246, 246, 246);
+    --preto: rgb(34, 34, 34);
+    --preto-light: rgb(47, 47, 47);
+}
+body {
+    background: var(--branco);
+}
+
+/* Container to Center */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Title */
+.title h1 {
+    margin: 1.5rem;
+}
+
+/* Date */
+.date-info {
+    border-radius: 0.25rem;
+    background-color: var(--cinza);
+    padding: 0.75rem 20rem 0.75rem 1.25rem;
+    text-align: left;
+    font-size: 0.80rem;
+    font-weight: 700;
+}
+
+/* Generator Color */
+.generator-container {
+    border-radius: 0.25rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    background-color: var(--cinza);
+    padding: 2rem 1.5rem;
+}
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+.red, .green, .blue {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0.185rem 0.25rem 0.25rem rgba(0, 0, 0, 0.239);
+}
+.red {
+    background-color: rgb(255, 94, 94);
+    margin-right: 0.5rem;
+}
+.green {
+    background-color: rgb(105, 255, 105);
+}
+.blue {
+    background-color: rgb(28, 28, 182);
+    margin-left: 0.5rem;
+}
+.circle {
+    margin: 2rem auto;
+    background: rgb(127,127,127);
+    width: 128px;
+    height: 128px;
+    border-radius: 8rem;
+    box-shadow: 0 0.35rem 0.25rem rgba(0, 0, 0, 0.239);
+}
+.generator-container span {
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 2.5rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
