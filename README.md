@@ -2,6 +2,10 @@
 
 ![prévia](https://i.imgur.com/GEGGPUm.png)
 
+<div align="center"><a href="https://generator-rgb.souuzaaa.vercel.app/">Deploy</a></div>
+
+<hr>
+
 ## Desafios:
 
 - Sua aplicação deverá seguir o Protótipo [ ✔️ ]
@@ -13,6 +17,7 @@
 
 - Faça o design trocar de cor dependendo do Horário:
 Exemplo: 06:00 - 18:00 (light theme) | 18:00 : 06:00 (Dark theme). [ ✔️ ]
+
 
 *Desafio cumprido por:* ***Felipe Souza. 04/02/2021***
 
